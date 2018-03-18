@@ -1,0 +1,34 @@
+html, body { margin:0; padding:0;}
+
+body {
+	font-size:100%;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+	font-size: 3rem;
+	color: yellow;
+	text-shadow:-4px -2px 0 #060606, 2px -2px 0 #060606, -4px 2px 0 #060606, 2px 2px 0 #060606;
+	margin-bottom: 3rem;
+	text-align:center;
+
+}
+
+#stuff
+{
+	padding: 10% 2%;
+	margin: 0;
+	height:40rem;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+
+}
+
+#displayed {
+	font-size: 2.5rem;
+	font-weight: 800;
+	font-style: italic;
+	color: rgba(255,255,255,0.8);
+	text-shadow: -2px -2px 0 #060606, 2px -2px 0 #060606, -2px 2px 0 #060606, 2px 2px 0 #060606;
+	text-align: center;
+}
