@@ -18,15 +18,16 @@
 
 		// all possible words
 		var allwords = [
-			['Smallest', 'Simplest', 'Super', 'Serious', 'Smallish', 'Smoothest'],
-			['Possible','Probable', 'Portable', 'Painless', 'Perceptive', 'Practical'],
-			['Learning', 'Lexical', 'Latest', 'Lightest', 'Lucid'],
+			['Caustic', 'Cynical', 'Certified', 'Carpe', 'Coarse', 'Crazy'],
 			['Open', 'Online', 'Omniscient', 'Opportunistic', 'Outstanding', 'Outrageous'],
-			['Tools', 'Technologies', 'Techniques', 'Touchstones', 'Timesavers']
+			['Groovy', 'Graphical', 'Generous', 'Gorgeous', 'Great'],
+			['Devilish', 'Darling', 'Dastardly', 'Daring', 'Doppleganger', 'Dingy'],
+			['Outlandish', 'Oracle', 'Orange', 'Ornery', 'Orbiting', 'Outrageous'],
+			['Gig', 'Giant', 'Goofball', 'Gringo', 'Gentleman']
 		];
 	
 		// loop and fade in random word
-		for (var i = 0; i < 5; i++) {
+		for (var i = 0; i < allwords.length; i++) {
 			jQuery('span.word' + i).text( allwords[i][Math.floor(Math.random()*allwords[i].length)] + ' ');
 			jQuery('span.word' + i).delay(800*i).fadeIn(2200);
 		}
