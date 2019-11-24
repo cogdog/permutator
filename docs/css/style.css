@@ -32,3 +32,10 @@ h1 {
 	text-shadow: -2px -2px 0 #060606, 2px -2px 0 #060606, -2px 2px 0 #060606, 2px 2px 0 #060606;
 	text-align: center;
 }
+
+a.github-ribbon {
+	position: absolute;
+	top: 45px;
+	left: 0;
+	border: 0;
+}

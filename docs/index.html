@@ -3,15 +3,14 @@
 <head>
 	<title>The Permutator</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="style.css" type="text/css" />	
-	
-
+	<link rel="stylesheet" href="css/style.css" type="text/css" />	
 </head>	
 <body>
 	<div id="stuff">
 		<h1>The Permutator</h1>
 		
 		<div id="displayed">
+			<!-- hardwired now for the number of letters in the word, make enough divs for your own -->
 			<span class="marquee word0"> </span>
 			<span class="marquee word1"> </span>
 			<span class="marquee word2"> </span>
@@ -19,19 +18,24 @@
 			<span class="marquee word4"> </span>
 			<span class="marquee word5"> </span>
 		</div>
-	
-	
-		
 	</div>
 	
 	
+	<a href='https://github.com/cogdog/permutator' class='github-ribbon'><img src='images/github-ribbons/white.png' /></a>
+	
+	<!-- get libraries -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="jquery.backstretch.min.js"></script>
-	<script src="jquery.permutator.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+	
+	<!-- edit this script to make your own word sets -->
+	<script src="js/permutator.js"></script>
+	
 	<script>
-	    $.backstretch(["background.jpg"]);
-	    $("#stuff h1").text( 'The Permutator');
-
+		// background image, change if you don't like the photo of Felix -->
+	    $.backstretch(["images/background.jpg"]);
+	    
+	    // edit for a title you prefer
+	    $("#stuff h1").text( 'Permutating @cogdog');
   	</script>
 </body>	
 </html>
