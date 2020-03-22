@@ -25,7 +25,7 @@
 	
 	
 	if ( typeof qs['wordsrc'] != 'undefined' )  {
-		json_src = qs['wordsrc'] . '?jsoncallback=?';
+		json_src = qs['wordsrc'];
 	} else {
 		json_src = "js/pdata.json";
 	}
