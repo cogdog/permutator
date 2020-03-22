@@ -44,9 +44,15 @@ body {
 	width:100%;
 	color: white;
 	font-weight: bold;
-	font-size: 0.8em;	
+	font-size:1.0em;	
 	opacity: 0.6;
 	text-align:center;
+}
+
+#attribution {
+	display:block;
+	font-size: 0.8em;	
+	font-style:italic;
 }
 
 #credits a,  #credits a:visited { color: yellow; text-decoration:none; }

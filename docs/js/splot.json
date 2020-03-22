@@ -1,0 +1,55 @@
+{
+  "title": "What The Heck is SPLOT?",
+  "background": "images/splot.jpg",
+  "attribution": "Sadly unknown source, but most likely open licensed",
+  "allwords": [
+    {
+      "words": [
+		"Smallest",
+		"Simplest",
+		"Super",
+		"Serious",
+		"Smallish",
+		"Smoothest"
+      ]
+    },
+    {
+      "words": [
+		"Possible",
+		"Probable",
+		"Portable",
+		"Painless",
+		"Perceptive",
+		"Practical"
+      ]
+    },
+    {
+      "words": [
+		"Learning",
+		"Lexical",
+		"Latest",
+		"Lightest",
+		"Lucid"
+      ]
+    },
+    {
+      "words": [
+		"Open",
+		"Online",
+		"Omniscient",
+		"Opportunistic",
+		"Outstanding",
+		"Outrageous"
+      ]
+    },
+    {
+      "words": [
+		"Tools",
+		"Technologies",
+		"Techniques",
+		"Touchstones",
+		"Timesavers"
+      ]
+    }
+  ]
+}

@@ -34,6 +34,7 @@
 	
 	  .done(function( jsondata ) {
     	$("#ptitle").text(jsondata.title);
+    	$("#attribution").html("Image Credits: " + jsondata.attribution);
     	$.backstretch([jsondata.background]);
 
     	allwords = jsondata.allwords;
