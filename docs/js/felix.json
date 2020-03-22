@@ -1,0 +1,46 @@
+{
+  "title": "Why not Felix",
+  "background": "images/felix-ride.jpg",
+  "allwords": [
+    {
+      "words": [
+        "Friendly",
+        "Feral",
+        "Fiery",
+        "Fluffy",
+        "Foolish"
+      ]
+    },
+    {
+      "words": [
+        "Extroverted",
+        "Extraordinary",
+        "Eloquent",
+        "Eager"
+      ]
+    },
+    {
+      "words": [
+        "Loving",
+        "Lively",
+        "Luscious",
+        "Ludicrous"
+      ]
+    },
+    {
+      "words": [
+        "Invisible",
+        "Instructive",
+        "Irascible",
+        "Ingenous"
+      ]
+    },
+    {
+      "words": [
+        "Xtra",
+        "Xish",
+        "Xwhat"
+      ]
+    }
+  ]
+}

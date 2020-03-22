@@ -1,5 +1,5 @@
 # The Permuator
-by Alan Levine http://cogdog.info/ or http://cogdogblog.com/
+by Alan Levine https://cog.dog/
 
 -----
 *If this kind of stuff has any value to you, please consider supporting me so I can do more!*
@@ -9,14 +9,26 @@ by Alan Levine http://cogdog.info/ or http://cogdogblog.com/
 ----- 
 
 
-## What is this?
+## What is This?
 
-See https://cogdog.github.io/permutator for a "stunning" demo
+See https://cogdog.github.io/permutator for a "stunning" demo where you can see maybe what "COGDOG" stands for?
+
+This is github based SPLOT for randomizing the possible words to make up nebulous acronyms like SPLOT first done in a hard coded way at https://splot.ca -- GIF version here
+
+![](images/what-is-splot.gif "What is a SPLOT?")
 
 
-A github based splot for randomizing acronyms like at https://splot.ca -- right now a proof of concept.
+Ah, but now we have a new twist. Rather than having the word choices being hard coded in a file, they can be fetched from external, even remote json data files.
 
-Ultimately, in a not too distant future, you could make your own by:
+Try this reproduction of the original SPLOT mix
 
-* fork this baby
-* providing a URL parameter to a JSON file with all the parameters (word lists, background image URL, title, CSS settings). Possibly a fotm generator here to build, test, create the json
+https://cogdog.github.io/permutator/?wordsrc=js/splot.json
+
+Or even...
+
+https://cogdog.github.io/permutator/?wordsrc=http://cogdogblog.com/stuff/felix.json
+
+## Specifications for JSON Format
+
+TBA, maybe a tool to build it? 
+
