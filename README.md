@@ -24,7 +24,11 @@ Try this reproduction of the original SPLOT mix
 
 https://cogdog.github.io/permutator/?wordsrc=js/splot.json
 
-Or even...
+and a favorite pal
+
+https://cogdog.github.io/permutator/?wordsrc=js/felix.json
+
+Or even... (this is not working yet...)
 
 https://cogdog.github.io/permutator/?wordsrc=http://cogdogblog.com/stuff/felix.json
 
