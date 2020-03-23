@@ -30,7 +30,7 @@ https://cogdog.github.io/permutator/?wordsrc=js/felix.json
 
 Or even... (this is not working yet...)
 
-https://cogdog.github.io/permutator/?wordsrc=http://cogdogblog.com/stuff/felix.json
+https://cogdog.github.io/permutator/?wordsrc=https://cogdogblog.com/stuff/felix.json
 
 ## Specifications for JSON Format
 
