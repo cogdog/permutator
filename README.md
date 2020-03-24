@@ -18,21 +18,30 @@ This is github based SPLOT for randomizing the possible words to make up nebulou
 ![](images/what-is-splot.gif "What is a SPLOT?")
 
 
-Ah, but now we have a new twist. Rather than having the word choices being hard coded in a file, they can be fetched from external, even remote json data files.
+Ah, but now we have a new twist. Rather than having the word choices being hard coded in a file, they are defined by json files in the `/wordsrc` directory on this site.
 
 Try this reproduction of the original SPLOT mix
 
-https://cogdog.github.io/permutator/?wordsrc=js/splot.json
+https://cogdog.github.io/permutator/?wordsrc=splot
 
 and a favorite pal
 
-https://cogdog.github.io/permutator/?wordsrc=js/felix.json
+https://cogdog.github.io/permutator/?wordsrc=felix
 
-Or even... (this is not working yet...)
-
-https://cogdog.github.io/permutator/?wordsrc=https://cogdogblog.com/stuff/felix.json
 
 ## Specifications for JSON Format
 
-TBA, maybe a tool to build it? 
+*this is rough now, needs refinement for sure!*
+
+The URl parameter for `wordsrc=` specifies the name of a json data file in the `wordsrc/` directory so a file named `felix.json` is requested by the URL https://cogdog.github.io/permutator/?wordsrc=felix
+
+To create your own permutator, you could download this repo and run from your own server. Then, make versions of the data files in the `/wordsrc` directory. OR... and even more fun, just add your own files to this repo.
+
+Download a copy of an existing data file, modify to fit your own permutating message, and submit as a pull request. The json data fields are:
+
+`title`: The main title that appears in yellow
+`background`: The background image; either local if uploaded to the `images` director or a full URL to source image
+`attribution`: credit for image, added to the footer
+`allwords`: an array of arrays for the word choices (see an example)
+
 
