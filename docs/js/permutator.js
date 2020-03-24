@@ -27,7 +27,7 @@
 		
 	} else {
 		// none passed, used default
-		json_src = 'wordsrc/pdata.json';
+		json_src = 'wordsrc/default.json';
 	}
 	
 	// get is some json
