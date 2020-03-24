@@ -15,7 +15,7 @@ See https://cogdog.github.io/permutator for a "stunning" demo where you can see 
 
 This is github based SPLOT for randomizing the possible words to make up nebulous acronyms like SPLOT first done in a hard coded way at https://splot.ca -- GIF version here
 
-![](images/what-is-splot.gif "What is a SPLOT?")
+![](images/what-is-splot.gif)
 
 
 Ah, but now we have a new twist. Rather than having the word choices being hard coded in a file, they are defined by json files in the `/wordsrc` directory on this site.
