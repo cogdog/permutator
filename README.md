@@ -11,6 +11,8 @@ by Alan Levine https://cog.dog/
 
 ## What is This?
 
+![](docs/images/permutator.gif)
+
 See https://cogdog.github.io/permutator for a "stunning" demo where you can see maybe what "COGDOG" stands for?
 
 This is github based SPLOT for randomizing the possible words to make up nebulous acronyms like SPLOT first done in a hard coded way at https://splot.ca -- GIF version here
