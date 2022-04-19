@@ -46,4 +46,6 @@ Download a copy of an existing data file, modify to fit your own permutating mes
 `attribution`: credit for image, added to the footer
 `allwords`: an array of arrays for the word choices (see an example)
 
+Ultimately, if I were a decent coder, I should build a tool that generates some json...
+
 

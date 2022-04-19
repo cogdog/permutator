@@ -81,10 +81,12 @@
 		$('span.marquee').fadeOut('3000');
 		clear_words();  
 		
+		$("#displayed").hide();
 		// loop and fade in random word
 		for (var i = 0; i < allwords.length; i++) {
 			$('span.word' + i).text( allwords[i]["words"][Math.floor(Math.random()*allwords[i]["words"].length)] + ' ');
 			$('span.word' + i).delay(800*i).fadeIn(2200);
 		}
+		$("#displayed").show();
 	}
 });
