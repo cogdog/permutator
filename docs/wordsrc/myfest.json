@@ -1,0 +1,70 @@
+{
+  "title": "Permutating MYFest",
+  "background": "images/myfest.jpg",
+  "attribution": "MYFest Color Logo created by <a href='https://twitter.com/hwrightly'>Heather Wright</a>",
+  "allwords": [
+    {
+      "words": [
+        "Magical",
+        "Meaningful",
+        "Midyear",
+        "Multimodal",
+        "Mighty"
+      ]
+    },
+    {
+      "words": [
+        "Your",
+        "Yummy",
+        "Yearning",
+        "Yes"
+      ]
+    },
+    {
+      "words": [
+        "Festive",
+        "Fun",
+        "Friendly",
+        "Fine",
+        "Feisty",
+        "Fantastic",
+        "Funky"
+      ]
+    },
+    {
+      "words": [
+        "Essential",
+        "Energetic",
+        "Excellent",
+        "Endearing",
+        "Enriching",
+        "Eclectic",
+        "Effervescent"
+      ]
+    },
+    {
+      "words": [
+        "Sincere",
+        "Smiling",
+        "Spectacular",
+        "Sensational",
+        "Scintillating",
+        "Savvy",
+        "Serene"
+      ]
+    },
+    {
+      "words": [
+        "Terrific",
+        "Trustworthy",
+        "Thorough",
+        "Tactful",
+        "Talented",
+        "Tolerant",
+        "Tenacious",
+        "Truth",
+        "Time"
+      ]
+    }
+  ]
+}
