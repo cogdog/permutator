@@ -12,6 +12,7 @@
         "Foolish",
         "Furry",
         "Fierce",
+        "Fabulous"
       ]
     },
     {
@@ -19,7 +20,11 @@
         "Extroverted",
         "Extraordinary",
         "Eloquent",
-        "Eager"
+        "Eager",
+        "Elegant",
+        "Effervescent",
+        "Earnest",
+        "Exemplary"
       ]
     },
     {
@@ -27,7 +32,9 @@
         "Loving",
         "Lively",
         "Luscious",
-        "Ludicrous"
+        "Ludicrous",
+        "Light-hearted",
+        "Loyal"
       ]
     },
     {
@@ -35,14 +42,19 @@
         "Invisible",
         "Instructive",
         "Irascible",
-        "Ingenous"
+        "Ingenous",
+        "Important",
+        "Innocent",
+        "Illuminating"
       ]
     },
     {
       "words": [
         "Xtra",
         "Xish",
-        "Xwhat"
+        "Xwhat",
+        "Xtraordinary",
+        "X-factor"
       ]
     }
   ]
